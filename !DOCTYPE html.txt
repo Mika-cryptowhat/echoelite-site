@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EchoElite Speaker Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f0f5;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #333;
+    }
+    .speaker-image {
+      max-width: 300px;
+      margin: 20px auto;
+    }
+    .buy-button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 18px;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 20px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .buy-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to EchoElite Speaker Store</h1>
+  <img
+    class="speaker-image"
+    src="https://ae01.alicdn.com/kf/Hc89ca25c6a5a4fcabfae967fc6d0ee1cs.jpg"
+    alt="EchoElite Speaker"
+  />
+  <p>High quality wireless speaker for amazing sound experience.</p>
+  <a
+    class="buy-button"
+    href="https://www.aliexpress.com/item/1005006667803838.html"
+    target="_blank"
+    >Buy Now</a>
+</body>
+</html>
